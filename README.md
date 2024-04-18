@@ -18,13 +18,13 @@ A GitHub Action to add New Relic deployment markers during your release pipeline
 | user           | yes          | github.actor | A username to associate with the change that is visible in the Overview and Deployments pages                                              |
 
 
-#GitHub secrets
+##GitHub secrets
 Github secrets assumed to be set:
 
-**NEW_RELIC_API_KEY - Personal API key**
-**NEW_RELIC_DEPLOYMENT_ENTITY_GUID_APPNAME - New Relic Entity GUID to create the marker on**
+**NEW_RELIC_API_KEY - Personal API key
+NEW_RELIC_DEPLOYMENT_ENTITY_GUID_APPNAME - New Relic Entity GUID to create the marker on**
 
-#Sample yaml
+##Sample yaml
 ```
 name: Change Tracking Marker
 on:
