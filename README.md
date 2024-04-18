@@ -21,9 +21,9 @@ A GitHub Action to add New Relic deployment markers during your release pipeline
 ## GitHub secrets
 Github secrets assumed to be set:
 
-**NEW_RELIC_API_KEY - Personal API key
+**NEW_RELIC_API_KEY - Personal API key**
 
-NEW_RELIC_DEPLOYMENT_ENTITY_GUID_APPNAME - New Relic Entity GUID to create the marker on**
+**NEW_RELIC_DEPLOYMENT_ENTITY_GUID_APPNAME - New Relic Entity GUID to create the marker on**
 
 ## Sample yaml
 ```
